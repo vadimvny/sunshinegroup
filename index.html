@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <script src="bower_components/jquery/dist/jquery.min.js"></script>
+   <script type="text/javascript" src="javascript/jquery.mmenu.min.all.js"></script>
+   <script src="javascript/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+   <link rel="stylesheet" href="stylesheet/styles.css"/>
+   <link type="text/css" href="stylesheet/jquery.mmenu.all.css" rel="stylesheet" />
+   <link rel="stylesheet" href="themes/default/default.css" type="text/css" />
+   <link rel="stylesheet" href="stylesheet/nivo-slider.css" type="text/css" />
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SunshineGroup</title>
+</head>
+        <script type="text/javascript">
+         $(document).ready(function() {
+            $("#menu").mmenu({
+               "slidingSubmenus": false,
+               "extensions": [
+                  "effect-slide-menu",
+                  "effect-slide-panels-0",
+                  "theme-dark"
+               ],
+               "offCanvas": {
+                  "position": "right"
+               },
+               "dividers": true
+            });
+
+             $('#slider').nivoSlider();
+
+         });
+      </script>
+<header>
+	<div class="bar">
+		<div class="center">
+			<span class="text-left">There are many variations of Lorem Ipsum
+			<button class="btn-left">LEARN MORE</button>
+			</span>	
+			<span class="text-right">
+				All the Lorem ipsum generators end	
+
+			<button class="btn">RSVP NOW</button>
+			</span>
+			<div class="m-contact">
+				<p class="m-call">Call: 617-800-7373</p> 
+			</div>
+		<div>
+	</div>
+</header>
+<body>
+	<div class="container">
+		<div id="side-bar">
+			<div class="side-photos">
+				<img src="assets/cta-1.jpg">
+				<p class="s-photo-text">Gynocology</p>
+				<img src="assets/cta-2.jpg">
+				<p class="s-photo-text">Pregnant Care</p>
+				<img src="assets/cta-3.jpg">
+				<p class="s-photo-text">Urinary Incontinence</p>
+			</div>	
+			<div class="box">
+				<ul class="green">
+					<li>Natural Hormones</li>
+					<li>Healthy Lifestyle Program</li>
+					<li>Robotic Surgery</li>
+					<li>Alternatives to Hysterectomy</li>
+				</ul>
+			</div>
+			<div class="news">
+				<h1 class="news">SG News:</h1>
+				<p><b>Dr. Bieuenberg helps women in Haiti!</b> Dr.Biyenberg recent completed her sixth medical mission to Haiti. She volunteered at the hospital. </p>	
+				<p><b>New technology at check-in!</b> We are happy to announce that we have implemented a new econmic patient.</p>
+			</div>
+		</div>	
+		 	<div id="header">
+				<img class="logo" src="assets/logo.png">
+				<div class="contact">Call Us: 603-742-2424</div>
+				<div class="header-button">
+				<button class="btn-btn">PATIENT PORTAL</button>
+				<button class="btn-apt">MAKE AN APPOINTMENT</button>
+				<a href="#menu" class="menu">&#9776</a>
+			</div>
+				<div id="nav">
+					<ul>
+						<li><a href="/">Home</a></li>
+						<li><a href="providers.html">Our Providers</a></li>
+						<li><a href="treatment.html">Treatment and Care</a></li>
+						<li><a href="resources.html">Resources</a></li>
+						<li><a href="blog.html">Blog</a></li>
+						<li><a href="locations.html">Locations</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</div>
+			</div>	
+				<div id="main">
+					<div class="mobile">
+						<div class="slider-wrapper theme-default">
+							<div id="slider" class="nivoSlider">
+								<img id="1" src="assets/image.jpg" alt="">
+								<img id="2" src="assets/image.jpg" alt="">
+								<img id="3" src="assets/image.jpg" alt="">
+							</div>
+						</div>	
+					</div>		
+						<div class="sub-photo">
+							<img class="sub-photo" src="assets/cta.png">
+							<p class="sub-photo-text">sunshine group health grand opening</br> in new york city - septemeber 11, 2015</br>
+							<button class="btn-btn-btn">
+								MAKE AN APPOINTMENT
+							</button>
+							</p>
+						</div>
+						<div class="text">
+							<p><b>We are dedicated</b> to providing comprehensive care to women who face a broad range of ob/gyn issues.
+							</p>
+						   <p><b>We believe</b> in a holistic approach to your healthcare - one that focuses on your emotiona; and practical needs as well as your medical status</p>
+						   <p><b>Women today</b> know that the play an important role in the making choices about their health care. We invite you to join us partners in your health care decisions</p>
+						</div>
+				</div>
+			<div id="footer">
+				<div class="footer-image">
+					<img class="footer-image"src="assets/logo-footer.png">
+					<img class="footer-image-mob" src="assets/logo-mobile-footer.png">
+				</div>
+				<div class="footer-text" >
+					Sunshine Group Health, P.A. - 100 Left Avenue, Sunshine, NY -- Phone: 617.800.7373
+				</div>
+				<div class="mobile-text">
+					<p>Sunshine Group Health, P.A. </p>
+					<p>Left Avenue, Sunshine, NY</p>
+					</br>
+					<p>Phone: 617.800.7373</p>
+				</div>
+			</div>
+		<div class="p-portal">
+			<button class="p-portal">Patient Portal</button>
+		</div>
+	</div>
+</body>
+<nav id="menu">
+	<ul>
+		<li><a href="/">HOME</a></li>
+		<li><a href="providers.html">OUR PROVIDERS</a></li>
+		<li><a href="treatment.html">TREATMENT & CARE</a></li>
+		<li><a href="resources.html">RESOUCES</a></li>
+		<li><a href="blog.html">BLOG</a></li>
+		<li><a href="locations.html">LOCATIONS</a></li>
+		<li><a href="contact.html">CONTACT</a></li>
+	</ul>
+</nav>
+</html>
